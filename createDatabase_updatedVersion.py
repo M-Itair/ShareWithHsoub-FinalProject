@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 # Connect to SQLite database
-conn = sqlite3.connect('schoolDatabase.db') ## test5.db is the final database
+conn = sqlite3.connect('schoolDatabase.db') 
 
 # Function to create the database tables if they don't exist
 def create_tables():
